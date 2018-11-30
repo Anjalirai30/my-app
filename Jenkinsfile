@@ -4,8 +4,8 @@ node{
    }
    stage('Compile-Package'){
       // Get maven home path
-      def mvnHome =  tool name: 'MAVEN', type: 'maven'   
-      sh "${mvnHome}\bin\mvn package"
+      def mvnHome =  'D:\Anjali\DevOps\apache-maven-3.6.0\bin'   
+      sh "${mvnHome}\mvn package"
    }
 }
 
