@@ -4,7 +4,6 @@ node{
 
    }
    stage('Compile-Package'){
-      // Get maven home path
       bat 'mvn clean install'
    }
 }
